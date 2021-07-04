@@ -1,0 +1,47 @@
+ motion_id = keepleftaction
+"sit down after standing
+
+label start
+
+
+
+stiffness 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0
+
+"   HY     HP    LSP    LSR    LEY    LER  _LWY_  _LH_     RSP    RSR    REY    RER  _RWY_   _RH_   LHYP    LHR    LHP    LKP    LAP    LAR   RHYP    RHR    RHP    RKP    RAP    RAR Int  Dur
+
+   0   29.51     -90   -3   -90    0    0   0  90   7   0   0   0   0   0  0  -40.7644   120   -59   0.003823  0   10   -20.7644   80   -55   0.00383155  1 200
+stiffness 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0
+
+"   HY     HP    LSP    LSR    LEY    LER  _LWY_  _LH_     RSP    RSR    REY    RER  _RWY_   _RH_   LHYP    LHR    LHP    LKP    LAP    LAR   RHYP    RHR    RHP    RKP    RAP    RAR Int  Dur
+
+   0   29.51     -90   -3   -90    0    0   0  90   7   0   0   0   0   0  0  -40.7644   120   -59   0.003823  0   10   -20.7644   80   -55   0.00383155  1 200
+stiffness 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0
+
+"   HY     HP    LSP    LSR    LEY    LER  _LWY_  _LH_     RSP    RSR    REY    RER  _RWY_   _RH_   LHYP    LHR    LHP    LKP    LAP    LAR   RHYP    RHR    RHP    RKP    RAP    RAR Int  Dur
+
+   0   29.51     -90   -3   -90    0    0   0  90   7   0   0   0   0   0  0  -40.7644   120   -59   0.003823  0   0   -20.7644   80   -55   0.00383155  1 1000
+stiffness 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0
+
+"   HY     HP    LSP    LSR    LEY    LER  _LWY_  _LH_     RSP    RSR    REY    RER  _RWY_   _RH_   LHYP    LHR    LHP    LKP    LAP    LAR   RHYP    RHR    RHP    RKP    RAP    RAR Int  Dur
+
+   0   29.51     -90   -3   -90    0    0   0  90   7   0   0   0   0   0  0  -40.7644   120   -59   0.003823  0   0   -20.7644   80   -55   0.00383155  1 1000
+
+stiffness 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0
+
+"   HY     HP    LSP    LSR    LEY    LER  _LWY_  _LH_     RSP    RSR    REY    RER  _RWY_   _RH_   LHYP    LHR    LHP    LKP    LAP    LAR   RHYP    RHR    RHP    RKP    RAP    RAR Int  Dur
+
+   0   29.51    90   -3   -90    -5    0   0   90   7   0   0   0   0    0  0  -40.7644   120   -59   0.003823   0   0   -20.7644   80   -55   0.00383155  1 200
+
+stiffness 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0
+
+"   HY     HP    LSP    LSR    LEY    LER  _LWY_  _LH_     RSP    RSR    REY    RER  _RWY_   _RH_   LHYP    LHR    LHP    LKP    LAP    LAR   RHYP    RHR    RHP    RKP    RAP    RAR Int  Dur
+
+   0   29.51    30   60   -90    -5    0   0   90   7   0   0   0   0   0   0   -20.7644   0   -55   0.00383155   -30   0   -20.7644   0   -55   0.00383155  1 500
+
+label repeat
+
+     -      -      -      -      -      -      -      -      -      -      -      -      -      -      -      -      -      -      -      -      -      -      -      -      -      -   1  1000
+
+
+transition allMotions extern start
+
